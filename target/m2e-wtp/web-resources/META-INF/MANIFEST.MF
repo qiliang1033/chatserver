@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: chatserver Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.qiliang
+Build-Jdk: 1.8.0_152
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

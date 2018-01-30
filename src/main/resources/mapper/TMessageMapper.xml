@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chat.mapper.TMessageMapper">
+  <resultMap id="BaseResultMap" type="com.chat.model.TMessage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="fromuser" jdbcType="VARCHAR" property="fromuser" />
+    <result column="touser" jdbcType="VARCHAR" property="touser" />
+    <result column="message" jdbcType="VARCHAR" property="message" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="createtime" jdbcType="TIMESTAMP" property="createtime" />
+  </resultMap>
+  <update id="setCharsetToUtf8mb4">
+		SET NAMES utf8mb4
+	</update>
+</mapper>

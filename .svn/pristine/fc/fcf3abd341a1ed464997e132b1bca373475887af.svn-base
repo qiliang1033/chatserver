@@ -1,0 +1,8 @@
+1)本例程需要使用Java7， Tomcat7和Mysql5来运行
+2)需要使用本例程sql目录下的jbpm.sql建立内码为UTF-8的名为jbpmdb的数据库
+3)需要修改WEB-INF/classes目录下的hibernate.properties文件的dataSource.password和
+dataSource.username配置项的键值,使其反应您的Mysql数据库用户名和密码
+4)本例程打包为war，可以使用常见的压缩程序解压缩
+
+沈戟峰
+2014.12.13

@@ -1,5 +1,0 @@
-logging.level.tk.mybatis.springboot.mapper=trace
-spring.datasource.url=jdbc:mysql://47.95.223.107:3306/chatserver?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8
-spring.datasource.username=qiliang
-spring.datasource.password=qi_liang
-spring.datasource.driver-class-name=com.mysql.jdbc.Driver
